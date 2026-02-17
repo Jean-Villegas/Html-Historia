@@ -1,0 +1,84 @@
+=======================================================================
+Representación jerárquica de todos los nodos del documento index.html.
+Cada nivel se indenta para mostrar la jerarquía padre-hijo.
+=======================================================================
+
+Document
+└── html [lang="es"]
+    ├── head
+    │   ├── meta [charset="UTF-8"]
+    │   ├── meta [name="viewport" content="width=device-width, initial-scale=1.0"]
+    │   ├── meta [name="author" content="Jean Villegas"]
+    │   ├── meta [name="description" content="Sitio web sobre la evolución del HTML..."]
+    │   ├── meta [name="language" content="Spanish"]
+    │   ├── title
+    │   │   └── (texto: "La Evolución del HTML | Inicio")
+    │   └── link [rel="stylesheet" href="css/estilo.css"]
+    │
+    └── body
+        ├── header [class="header"]
+        │   └── div [class="header-contenedor"]
+        │       ├── a [href="index.html" class="logo"]
+        │       │   ├── (texto: "HTML")
+        │       │   └── span [class="logo-destacado"]
+        │       │       └── (texto: "Evolución")
+        │       └── nav [class="nav"]
+        │           └── ul [class="nav-lista"]
+        │               ├── li
+        │               │   └── a [href="index.html" class="nav-link activo"]
+        │               │       └── (texto: "Inicio")
+        │               ├── li
+        │               │   └── a [href="historia.html" class="nav-link"]
+        │               │       └── (texto: "Historia")
+        │               ├── li
+        │               │   └── a [href="caracteristicas.html" class="nav-link"]
+        │               │       └── (texto: "Características")
+        │               └── li
+        │                   └── a [href="contacto.html" class="nav-link"]
+        │                       └── (texto: "Contacto")
+        │
+        ├── section [class="hero"]
+        │   └── div [class="hero-contenido"]
+        │       ├── h1 [class="hero-titulo"]
+        │       │   └── (texto: "La Evolución del HTML")
+        │       ├── p [class="hero-subtitulo"]
+        │       │   └── (texto: "Desde las primeras etiquetas en 1991 hasta...")
+        │       └── a [href="historia.html" class="btn btn-primario"]
+        │           └── (texto: "Explorar Historia")
+        │
+        ├── main [class="contenedor principal"]
+        │   ├── h2 [class="seccion-titulo"]
+        │   │   └── (texto: "Versiones Principales")
+        │   └── div [class="tarjetas-grid"]
+        │       ├── article [class="tarjeta"]
+        │       │   ├── div [class="tarjeta-icono"] → (texto: "1.0")
+        │       │   ├── h3 [class="tarjeta-titulo"] → (texto: "HTML 1.0")
+        │       │   ├── p [class="tarjeta-texto"] → (texto: "El origen...")
+        │       │   └── a [href="historia.html#html1" class="tarjeta-enlace"] → (texto: "Saber más")
+        │       ├── article [class="tarjeta"]
+        │       │   ├── div [class="tarjeta-icono"] → (texto: "4.01")
+        │       │   ├── h3 [class="tarjeta-titulo"] → (texto: "HTML 4.01")
+        │       │   ├── p [class="tarjeta-texto"] → (texto: "Estandarización...")
+        │       │   └── a [href="historia.html#html4" class="tarjeta-enlace"] → (texto: "Saber más")
+        │       └── article [class="tarjeta"]
+        │           ├── div [class="tarjeta-icono"] → (texto: "5")
+        │           ├── h3 [class="tarjeta-titulo"] → (texto: "HTML5")
+        │           ├── p [class="tarjeta-texto"] → (texto: "Revolución en 2014...")
+        │           └── a [href="historia.html#html5" class="tarjeta-enlace"] → (texto: "Saber más")
+        │
+        └── footer [class="footer"]
+            └── div [class="footer-contenedor"]
+                └── p [class="footer-texto"]
+                    └── (texto: "© 2025 La Evolución del HTML...")
+
+================================================================================
+Fin del árbol DOM - index.html
+================================================================================
+
+NOTA: La página contacto.html comparte la misma estructura (header, main, footer).
+Diferencias en el DOM de contacto.html:
+- head: además incluye <script src="js/contacto-db.js" defer></script>
+- main: contiene h1 "Contacto", p.contacto-intro, form.formulario-contenedor con
+  div.form-grupo (label + input#nombre), div.form-grupo (label + input#email),
+  div.form-grupo (label + textarea#mensaje), button.btn.btn-enviar "Enviar"
+================================================================================
