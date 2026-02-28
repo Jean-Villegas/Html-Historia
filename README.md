@@ -33,9 +33,9 @@ npm install
 ### 3. Ejecutar en modo desarrollo
 Para ver el proyecto funcionando con recarga automática, usa:
 ```bash
-npm run dev
+npm start
 ```
-Esto abrirá el navegador en `http://localhost:8080/` (o el puerto que indique la terminal).
+Esto abrirá el navegador en `http://localhost:3001/` (o el puerto que indique la terminal).
 
 ### 4. Construir para producción
 Si deseas generar la carpeta lista para subir a un servidor web:
