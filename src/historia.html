@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Realizado por: Jean Villegas - Página de historia del HTML -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jean Villegas">
+  <meta name="description"
+    content="Historia del HTML: desde sus orígenes hasta la actualidad. Cronología de las versiones HTML 1.0, 2.0, 3.2, 4.01, XHTML y HTML5.">
+  <meta name="language" content="Spanish">
+  <title>Historia del HTML | La Evolución del HTML</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-contenedor">
+      <a href="index.html" class="logo animate-fade-down">
+        HTML<span class="logo-destacado">Evolución</span>
+      </a>
+      <!-- Botón menú desplegable (hamburguesa) -->
+      <button class="menu-toggle" id="mobile-menu" type="button" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" id="nav-menu">
+        <ul class="nav-lista">
+          <li><a href="index.html" class="nav-link">Inicio</a></li>
+          <li><a href="historia.html" class="nav-link activo">Historia</a></li>
+          <li><a href="caracteristicas.html" class="nav-link">Características</a></li>
+          <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido principal: línea de tiempo con las versiones más importantes de HTML -->
+  <main class="contenedor">
+    <h1 class="seccion-titulo animate-fade-down">Historia del HTML</h1>
+    <div class="historia-contenido animate-fade-in">
+      <article class="historia-item animate-fade-up" id="html1" style="animation-delay: 0.1s;">
+        <time class="historia-ano" datetime="1991">1991</time>
+        <h2 class="historia-titulo">HTML 1.0</h2>
+        <p class="historia-descripcion">
+          Tim Berners-Lee creó el primer documento formal que describía HTML como un lenguaje de marcado.
+          Contenía aproximadamente 18 etiquetas básicas para títulos, párrafos, listas y enlaces.
+          Fue el origen de la World Wide Web en el CERN.
+        </p>
+      </article>
+
+      <article class="historia-item animate-fade-up" id="html2" style="animation-delay: 0.2s;">
+        <time class="historia-ano" datetime="1995">1995</time>
+        <h2 class="historia-titulo">HTML 2.0</h2>
+        <p class="historia-descripcion">
+          Primera especificación oficial del HTML publicada por el IETF (Internet Engineering Task Force).
+          Estableció un estándar común para que los navegadores interpretaran el mismo código de forma consistente.
+          Incluyó formularios básicos y tablas.
+        </p>
+      </article>
+
+      <article class="historia-item animate-fade-up" id="html3" style="animation-delay: 0.3s;">
+        <time class="historia-ano" datetime="1997">1997</time>
+        <h2 class="historia-titulo">HTML 3.2</h2>
+        <p class="historia-descripcion">
+          Desarrollado por el W3C. Añadió soporte para tablas completas, applets de Java, texto alrededor de imágenes
+          y elementos de presentación. Fue una versión de transición que incorporaba muchas características
+          que los navegadores ya habían implementado por su cuenta.
+        </p>
+      </article>
+
+      <article class="historia-item animate-fade-up" id="html4" style="animation-delay: 0.4s;">
+        <time class="historia-ano" datetime="1999">1999</time>
+        <h2 class="historia-titulo">HTML 4.01</h2>
+        <p class="historia-descripcion">
+          Versión estable y muy utilizada. Introdujo hojas de estilo (CSS), scripts (JavaScript),
+          marcos (frames) y una mejor separación entre estructura y presentación. Se publicaron
+          las variantes Strict, Transitional y Frameset. Dominó la web durante más de una década.
+        </p>
+      </article>
+
+      <article class="historia-item animate-fade-up" id="xhtml" style="animation-delay: 0.5s;">
+        <time class="historia-ano" datetime="2000">2000</time>
+        <h2 class="historia-titulo">XHTML (versión XML)</h2>
+        <p class="historia-descripcion">
+          Reformulación del HTML 4 como aplicación XML. Exigía sintaxis más estricta: etiquetas cerradas,
+          atributos entre comillas y nombres en minúsculas. Buscaba compatibilidad con otras tecnologías XML
+          y un código más limpio, aunque con el tiempo HTML5 retomó un enfoque más pragmático.
+        </p>
+      </article>
+
+      <article class="historia-item animate-fade-up" id="html5" style="animation-delay: 0.6s;">
+        <time class="historia-ano" datetime="2014">2014</time>
+        <h2 class="historia-titulo">HTML5</h2>
+        <p class="historia-descripcion">
+          Recomendación oficial del W3C en octubre de 2014. Revolucionó la web con etiquetas semánticas
+          (header, nav, section, article, footer), elementos multimedia nativos (video, audio, canvas),
+          formularios mejorados con nuevos tipos de input, almacenamiento local y APIs para geolocalización,
+          arrastrar y soltar, y mucho más. Es el estándar actual de la web.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-contenedor">
+      <p class="footer-texto">&copy; 2025 La Evolución del HTML · Jean Villegas</p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+================================================================================
+ARBOL CSSOM - estilo.css
+================================================================================
+
+
+
+*                          → reset (margin, padding, box-sizing)
+:root                     → variables (--azul-oscuro, --rojo, --gris-claro, --azul, --blanco)
+body                      → fuente, fondo, color base
+
+.header                   → cabecera (fondo, padding, sticky, sombra)
+.header-contenedor        → flexbox para logo y menú
+.logo
+.logo:hover
+.logo-destacado           → parte "Evolución" del logo en rojo
+
+.nav-lista                → lista del menú (flex, sin viñetas)
+.nav-link
+.nav-link:hover
+.nav-link.activo          → enlace de la página actual
+
+.hero                     → banner principal (solo index)
+.hero-contenido
+.hero-titulo
+.hero-subtitulo
+
+.btn
+.btn-primario
+.btn-primario:hover       → scale + color
+
+.contenedor               → ancho máximo y padding de las páginas
+.principal                → solo index (contenedor + padding-top)
+.seccion-titulo           → títulos centrados de cada sección
+
+.tarjetas-grid            → grid 3 columnas (solo index)
+.tarjeta
+.tarjeta:hover
+.tarjeta-icono
+.tarjeta-titulo
+.tarjeta-texto
+.tarjeta-enlace
+.tarjeta-enlace:hover
+
+.historia-contenido       → caja blanca (solo historia)
+.historia-item
+.historia-item:last-child
+.historia-ano
+.historia-titulo
+.historia-descripcion
+
+.caracteristicas-grid     → grid 2 columnas (solo caracteristicas)
+.caracteristica-card
+.caracteristica-card:hover
+.caracteristica-card h3
+.caracteristica-card p
+.caracteristica-card ul
+
+.contacto-intro           → texto arriba del formulario (solo contacto)
+.formulario-contenedor
+.form-grupo
+.form-grupo label
+.form-grupo input, .form-grupo textarea
+.form-grupo input:focus, .form-grupo textarea:focus
+.form-grupo textarea
+.btn-enviar
+.btn-enviar:hover
+
+.footer
+.footer-contenedor
+.footer-texto
+
+================================================================================
+Fin árbol CSSOM. Ver css/estilo.css para las propiedades de cada selector.
+================================================================================

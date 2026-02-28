@@ -1,0 +1,32 @@
+/*
+   ==========================================================================
+   ESTILOS BASE - La Evolución del HTML (e-actividad 3.1)
+   Paleta de colores y estilos base entregados en la actividad anterior
+   ========================================================================== */
+
+/* Quitar márgenes por defecto y usar box-sizing: border-box para facilitar el layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables CSS con la paleta de colores utilizada en todo el sitio */
+:root {
+  --azul-oscuro: #2c3e50;
+  --rojo: #e74c3c;
+  --gris-claro: #ecf0f1;
+  --azul: #3498db;
+  --blanco: #fff;
+  /* Variantes para transiciones y sombras */
+  --rojo-hover: #c0392b;
+  --azul-oscuro-rgba: rgba(44, 62, 80, 0.1);
+}
+
+/* Estilos base del documento */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--gris-claro);
+  color: var(--azul-oscuro);
+  line-height: 1.5;
+}
