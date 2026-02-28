@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Realizado por: Jean Villegas - Página de inicio / landing -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jean Villegas">
+  <meta name="description" content="Sitio web sobre la evolución del HTML a lo largo del tiempo. Conoce la historia y características del lenguaje de marcado web.">
+  <meta name="language" content="Spanish">
+  <title>La Evolución del HTML | Inicio</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <!-- Cabecera fija con logo y menú de navegación principal -->
+  <header class="header">
+    <div class="header-contenedor">
+      <a href="index.html" class="logo">
+        HTML<span class="logo-destacado">Evolución</span>
+      </a>
+      <nav class="nav">
+        <ul class="nav-lista">
+          <li><a href="index.html" class="nav-link activo">Inicio</a></li>
+          <li><a href="historia.html" class="nav-link">Historia</a></li>
+          <li><a href="caracteristicas.html" class="nav-link">Características</a></li>
+          <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección hero: mensaje principal y botón de llamada a la acción -->
+  <section class="hero">
+    <div class="hero-contenido">
+      <h1 class="hero-titulo">La Evolución del HTML</h1>
+      <p class="hero-subtitulo">Desde las primeras etiquetas en 1991 hasta la web semántica y multimedia de hoy</p>
+      <a href="historia.html" class="btn btn-primario">Explorar Historia</a>
+    </div>
+  </section>
+
+  <!-- Zona de tarjetas con un resumen de las versiones principales de HTML -->
+  <main class="contenedor principal">
+    <h2 class="seccion-titulo">Versiones Principales</h2>
+    <div class="tarjetas-grid">
+      <article class="tarjeta">
+        <div class="tarjeta-icono">1.0</div>
+        <h3 class="tarjeta-titulo">HTML 1.0</h3>
+        <p class="tarjeta-texto">El origen. Tim Berners-Lee creó en 1991 el lenguaje con 18 etiquetas básicas que dio inicio a la World Wide Web.</p>
+        <a href="historia.html#html1" class="tarjeta-enlace">Saber más</a>
+      </article>
+      <article class="tarjeta">
+        <div class="tarjeta-icono">4.01</div>
+        <h3 class="tarjeta-titulo">HTML 4.01</h3>
+        <p class="tarjeta-texto">Estandarización en 1999. Soporte para CSS, scripts y mejor separación entre estructura y presentación.</p>
+        <a href="historia.html#html4" class="tarjeta-enlace">Saber más</a>
+      </article>
+      <article class="tarjeta">
+        <div class="tarjeta-icono">5</div>
+        <h3 class="tarjeta-titulo">HTML5</h3>
+        <p class="tarjeta-texto">Revolución en 2014. Etiquetas semánticas, audio, video, canvas y APIs que transformaron la web.</p>
+        <a href="historia.html#html5" class="tarjeta-enlace">Saber más</a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-contenedor">
+      <p class="footer-texto">&copy; 2025 La Evolución del HTML · Jean Villegas</p>
+    </div>
+  </footer>
+</body>
+</html>
